@@ -7,7 +7,7 @@
     "checkin": "node scripts/checkin.js",
     "checkout": "node scripts/checkout.js",
     "start": "node autoScheduler.js",
-     "postinstall": "npx playwright install --with-deps"
+     "postinstall": "npx playwright install"
   },
   "repository": {
     "type": "git",
