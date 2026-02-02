@@ -1,0 +1,28 @@
+{
+  "name": "logautomates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "checkin": "node scripts/checkin.js",
+    "checkout": "node scripts/checkout.js",
+    "start": "node autoScheduler.js",
+    "postinstall": "npx playwright install chromium --with-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecch0123/LogAutomates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ecch0123/LogAutomates/issues"
+  },
+  "homepage": "https://github.com/Ecch0123/LogAutomates#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "playwright": "^1.58.1"
+  }
+}
