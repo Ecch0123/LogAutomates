@@ -6,8 +6,7 @@
   "scripts": {
     "checkin": "node scripts/checkin.js",
     "checkout": "node scripts/checkout.js",
-    "start": "node autoScheduler.js",
-     "postinstall": "npx playwright install"
+    "start": "node autoScheduler.js"
   },
   "repository": {
     "type": "git",

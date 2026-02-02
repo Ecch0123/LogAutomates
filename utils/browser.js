@@ -2,13 +2,11 @@ import { chromium } from 'playwright';
 
 export async function launchBrowser() {
   return chromium.launch({
-    headless: true, // always headless on server
+    headless: true,
     args: [
-      '--no-sandbox',          // required for Linux containers
+      '--no-sandbox',
       '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu',
-      '--single-process'
+      '--disable-dev-shm-usage'
     ]
   });
 }

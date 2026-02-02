@@ -6,5 +6,5 @@ export const CHECKIN_TIME = {
 
 export const CHECKOUT_TIME = {
   hour: 1,
-  minute: 30
+  minute: 40
 };
