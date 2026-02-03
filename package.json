@@ -1,19 +1,22 @@
 {
   "name": "logautomates",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automated log check-in and check-out using Playwright",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "checkin": "node scripts/checkin.js",
     "checkout": "node scripts/checkout.js",
-    "start": "node autoScheduler.js"
+    "start": "node autoScheduler.js",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ecch0123/LogAutomates.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ecch0123/LogAutomates/issues"
@@ -25,3 +28,4 @@
     "playwright": "^1.58.1"
   }
 }
+
